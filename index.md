@@ -4,6 +4,7 @@ title: CS154, Winter 2020, UCSB, zmatni
 
 # {{site.course}}, {{site.quarter}}
 
+## Computer Architecture
 ## Prof. Ziad Matni
 
 ## <span style="color:green">Course Information</span>
