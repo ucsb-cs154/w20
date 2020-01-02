@@ -1,0 +1,30 @@
+production_url: https://ucsb-cs154.github.io
+
+home:
+   title: UCSB CS154
+   url: /
+   baseurl: /w20
+
+offerings:
+   title: "W20"
+   url: /	
+   baseurl: /w20
+   items:
+      - title: "W20"
+        url: /
+        baseurl: /w20
+
+offering_links:
+  - title: Course Information
+    url: /info_list/
+  - title: Lecture Notes
+    url: /lectures_list/
+  - title: Labs
+    url: /lab_list/
+  - title: Calendar
+    url: /info/calendar
+  - title: Piazza
+    url: https://piazza.com/ucsb/winter2020/cs154
+  - title: Gradescope
+    url: https://www.gradescope.com
+

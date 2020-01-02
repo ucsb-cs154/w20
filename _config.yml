@@ -1,0 +1,84 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
+kramdown:
+  parse_block_html: true
+
+  #exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+exclude:
+    - vendor
+include:
+    - _pages
+
+timezone: America/Los_Angeles
+
+url: https://ucsb-cs154.github.io
+baseurl: "/w20"
+github_url: https://github.com/ucsb-cs154/w20
+
+title: "UCSB CS154"
+course: "CS154"
+qtr: "W20"
+quarter: "Winter 2020"
+
+
+start_week: 1
+start_date: 2020-01-05 00:00:00.00-8:00
+num_weeks: 10
+extra_exam_week: true
+
+cal_dates: >
+  [
+    {"label":"W20 instruction begins", "date":"2020-01-06" },	
+    {"label":"Univ Holiday", "date":"2020-01-20" },
+    {"label":"Univ Holiday", "date":"2020-02-17" },
+    {"label":"W20 instruction ends", "date":"2020-03-13" },
+    {"label":"W20 finals start", "date":"2020-03-16" },
+    {"label":"W20 finals end", "date":"2020-03-20" },
+    {"label":"W20 qtr ends", "date":"2020-03-20" }
+  ]
+
+collections:
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  - 
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: info
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout
+
+head_scripts: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - /static/js/select_section.js
+

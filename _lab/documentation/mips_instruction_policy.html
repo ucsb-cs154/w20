@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Grading Policies Regarding MIPS Assembly Instructions</title>
+  </head>
+
+  <body>
+    <h1>Grading Policies Regarding MIPS Assembly Instructions</h1>
+    <p>
+      TL;DR: <b>On exams, your code must use only those instructions and psuedoinstructions listed on the <a href="MIPS_reference_card.pdf">MIPS reference card, in addition to <code>la</code></a> for full credit.</b>
+      To be explicit, altogether this means that <b>only</b> the following psuedoinstructions are allowed:
+    </p>
+    <ul>
+      <li><code>blt</code> (Branch Less Than)</li>
+      <li><code>bgt</code> (Branch Greater Than)</li>
+      <li><code>ble</code> (Branch Less Than or Equal)</li>
+      <li><code>bge</code> (Branch Greater Than or Equal)</li>
+      <li><code>li</code> (Load Immediate)</li>
+      <li><code>la</code> (Load Address)</li>
+      <li><code>move</code> (Move)</li>
+    </ul>
+    
+    <p>
+      There are a number of instructions and pseudoinstructions located in the <a href="MIPS_reference_card.pdf">MIPS reference card</a>, which is available both at the link and in the front of the course textbook.
+      This set of instructions should be more than sufficient for all the tasks you will be asked to do in this class, and there are no restrictions on which ones you can use, unless otherwise stated.
+    </p>
+
+    <p>
+      That said, there are even more instructions, and particularly pseudoinstructions, available.
+      Scattered documentation exists online which goes through these instructions, though usually in an incomplete manner (for example, <a href="http://bcmi.sjtu.edu.cn/~mli/tiger/Res/mips_summary.pdf">this PDF</a> covers the <code>seq</code> pseudoinstruction, which is <i>not</i> on the aforementioned reference card, but nonetheless exists).
+      Such pseudoinstructions are nice to have on a day-to-day basis.
+      However, there are some problems associated with these, particularly from an educational perspective:
+    </p>
+    <ol>
+      <li>The documentation for these instructions tends to be lacking and incomplete</li>
+      <li>Certain questions can be trivially answered by providing a highly specialized psuedoinstruction which ultimately performs the whole task at hand</li>
+      <li>
+        Most importantly, these instructions increase the number of possible solutions, often in an exponential way.
+        From a student's perspective, more possible solutions generally means more possible ways in which something can go wrong, which is non-ideal.
+        From a grader's perspective, this can make grading very difficult; not only must the grader be familiar with all the psuedoinstructions (which is a vast set), the grader also must cope with lots of variability in solutions (which dramatically increases the amount of time necessary to grade things).
+      </li>
+    </ol>
+
+    <p>
+      For the above reasons, we require that on exams, your code must use only those instructions and psuedoinstructions listed on the <a href="MIPS_reference_card.pdf">MIPS reference card</a> for full credit.
+      The <b>only</b> exception to this is the <code>la</code> psuedoinstruction, which may also be used with no restrictions.
+      While you may use whatever instructions you want for lab assignments, it is still recommended that you stick to the reference card, just to better prepare you for the exams.
+    </p>
+  </body>
+</html>
