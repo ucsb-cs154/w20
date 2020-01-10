@@ -21,7 +21,9 @@ Office: SSMS 4409<br/><br/>
 
 | **TA** | **Email** | **Office Hours** |
 |---|---|---|
-| tba | tba | tba in Trailer 936
+|George Tzimpragos| gtzimpragos@ucsb.edu| Tue., 12 – 2 PM, Trailer 936|
+|Sid Senthilkumar| siddarth@ucsb.edu| Mon., 3 – 5 PM, Trailer 936|
+|David Weinflash (grading TA)| dweinflash@ucsb.edu| No office hours|
 
 Trailer 936 is located behind the Phelps building.
 
