@@ -38,6 +38,8 @@ bad, your assignment may not get graded (i.e. you'd get a zero score).</p>
 
 <p>Your final step will be to go to Gradescope, select the <b>lab02</b> entry, and upload/submit your NEW PDF. Please call your submitted PDF file <b>lab02.pdf</b>.</p>
 
+<hr>
+
  <p>Copyright 2020, Ziad Matni, CS Dept, UC Santa Barbara. 
  Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate
   credit is given; all other rights reserved.</p>
