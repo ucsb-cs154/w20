@@ -11,7 +11,7 @@ due: 2020-01-22 23:59:59.00-7
 <h2>Goals for This Week</h2>
 <p>By the time you have completed this work, you should be able to:</p>
 <ul>
-  <li>Perform some exercise on CPU performance</li>
+  <li>Perform some exercises on CPU performance</li>
   <li>Write a function inside of a program in MIPS assembly</li>
 </ul>
 <b>Provided files:</b>
