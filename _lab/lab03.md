@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Simulation of Parts of a CPU"
 assigned: 2020-01-24 08:00:00.00-7
 due: 2020-01-29 23:59:59.00-7
@@ -68,7 +68,7 @@ The latest value of a was: 0
 
 ## Lab 03 Instructions
 
-We will provide 4 different files where parts of the code are missing. We will also be demonstrating some of this in the lab on Friday.
+We will provide you with 4 different files where parts of the code are missing. We will also be demonstrating some of this in the lab on Friday.
 
 The first file does not need to be submitted; it simply shows how PyRTL conditional assignments are used to build a 1-bit 2:1 mux.
 
