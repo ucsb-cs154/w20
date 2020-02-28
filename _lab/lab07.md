@@ -32,7 +32,7 @@ We have provided you with 3 files, linked here:
 
 1. [`cpu.py`](/w20/lab/lab07/cpu.py) - This is a sample runner program. It contains information on how to test and debug your program. You should thoroughly read through this after you've implemented everything for this assignment.
 
-2. [`sample_test.s`](/w20/lab/lab07/cpu.py) - This is a sample assembly program that you can use to test your CPU once it's completed.
+2. [`sample_test.s`](/w20/lab/lab07/sample_test.s) - This is a sample assembly program that you can use to test your CPU once it's completed.
 
 3. [`i_mem_init.txt`](/w20/lab/lab07/i_mem_init.txt) - This contains the assembled instructions from `sample_test.s`, which will be loaded into the instruction memory of your CPU before the simulation begins.
 
