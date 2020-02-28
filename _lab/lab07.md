@@ -44,7 +44,7 @@ You may implement the CPU however you wish, but here is the suggested approach.
 
 You should reference the CPU diagram on page 265 (Figure 4.17) of your textbook (without jumps implemented). Think through which components, wires, and control signals you'll need at a high level. Figure is reproduced here:
 
-![](cpu_diagram.png =500x)
+<img src="cpu_diagram.png" alt="drawing" width="500"/>
 
 Hint: Your CPU will be almost identical to this one!
 
