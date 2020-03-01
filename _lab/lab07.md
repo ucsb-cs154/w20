@@ -23,7 +23,7 @@ Note: This lab will take SIGNIFICANTLY more time than the previous labs. Plan to
 Your task is to implement a single-cycle CPU using PyRTL that can run the following 9 MIPS instructions.
 
 ```
-ADD, AND, ADDI, LUI, SLL, SLT, LW, SW, BEQ
+ADD, AND, ADDI, LUI, ORI, SLT, LW, SW, BEQ
 ```
 
 ## Provided Files
@@ -123,7 +123,7 @@ control_signals = pyrtl.WireVector(bitwidth=9, name='control_signals')
 with pyrtl.conditional_assignment:
     with op == 0:
         with func == 0x20:
-            control_signals |= 0x140
+            control_signals |= 0x280
         ...
 
 # Extract the relevant signals
@@ -155,8 +155,6 @@ shift_left_logical(some_wire_vector, Const(2)) # GOOD!
 
 ```
 
-9. If you decide to write your own code to initialize i-mem, make sure you do it in 4 byte increments!
+9. Remember to sign extend your immediate values!! You will run into some very hard to debug errors with your branching if you don't do this! You can do this with the `.sign_extended()` function on WireVectors.
 
-10. Remember to sign extend your immediate values!! You will run into some very hard to debug errors with your branching if you don't do this! You can do this with the `.sign_extended()` function on WireVectors.
-
-11. Watch out for SLL! It is an R-Type instruction that reads from the "sh" portion, which should be zero-extended instead of sign-extended.
+10. Watch out for ORI! It is an I-Type instruction that uses a zero-extended immediate value instead of a sign-extended value.

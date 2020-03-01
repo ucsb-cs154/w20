@@ -21,8 +21,7 @@ if __name__ == '__main__':
 
        https://alanhogan.com/asu/assembler.php
 
-    3. Initialize your i_mem (instruction memory). Remember, each instruction
-       is 4 bytes, so you must increment your addresses by 4!
+    3. Initialize your i_mem (instruction memory).
 
     4. Run your simulation for N cycles. Your program may run for an unknown
        number of cycles, so you may want to pick a large number for N so you
@@ -63,7 +62,7 @@ if __name__ == '__main__':
         i = 0
         for line in fin.readlines():
             i_mem_init[i] = int(line, 16)
-            i += 4
+            i += 1
 
     sim = pyrtl.Simulation(tracer=sim_trace, memory_value_map={
         i_mem : i_mem_init
