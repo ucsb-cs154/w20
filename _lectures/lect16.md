@@ -1,7 +1,7 @@
 ---
-num: "lect15"
-desc: "Lecture #15 slides: Pipelining 2"
+num: "lect16"
+desc: "Lecture #16 slides: Intro to Memory Caching"
 ready: false
-pdfurl: /lectures/lect15.pdf
+pdfurl: /lectures/lect16.pdf
 ---
 
