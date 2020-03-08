@@ -7,8 +7,4 @@
 * [CS64 Lecture Slides]({{'http://sites.cs.ucsb.edu/~zmatni/cs154w20/CS64PDFs/' | relative_url }})
 
 * <i class="far fa-file-pdf"></i> [Midterm Practice Exam]({{'/info/midtermPE.pdf' | relative_url }})
-
-<!--
-* [Final Practice Exam -- NEW!]({{'/info/finalPE.pdf' | relative_url }})
--->
-
+* <i class="far fa-file-pdf"></i> [Final Practice Exam -- NEW!!]({{'/info/finalPE.pdf' | relative_url }})
